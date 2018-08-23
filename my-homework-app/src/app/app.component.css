@@ -46,13 +46,13 @@
 }
 
 .description {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 2em;
   font-size: 1.8vw;
   justify-content: center;
-  margin-top: 17%;
+  margin-top: 13%;
   color: #eeeeee;
   text-shadow: 1px 1px 3px #333, -1px -1px 3px #030303, 1px 1px #333, -1px -1px #030303;
   margin-left: 6%;
@@ -61,7 +61,6 @@
 .head {
   font-family: 'Segoe Script', sans-serif;
   font-size: 2.3vw;
-
 }
 
 .artic {
@@ -79,51 +78,18 @@
   -ms-grid-row: 2;
 }
 
-.login-page {
-  width: 60%;
-  padding: 18% 0 0;
-  margin: auto;
-}
-
-.form {
-  position: relative;
+.imgAnimal {
   background: linear-gradient(to right, #0e2442 0, rgba(44, 49, 65, .9) 100%);
-  max-width: 90%;
-  margin: 0 auto 30%;
-  padding: 15%;
-  text-align: center;
-  border-radius: 2%;
+  border-radius: 1.5vw;
+  width: 55%;
+  margin: 27% auto 30%;
+  padding: 1%;
 }
 
-.form input {
-  font-family: 'Source Sans Pro', sans-serif;
-  outline: 0;
-  background: #f2f2f2;
+.imgCat {
+  margin-top: 1.5%;
   width: 100%;
-  border: 0;
-  margin: 0 0 8%;
-  padding: 5%;
-  box-sizing: border-box;
-  font-size: 1.1vw;
-  border-radius: 3px;
-}
-
-.form button {
-  font-family: 'Source Sans Pro', sans-serif;
-  background: url(../assets/btnInactive.png);
-  border-color: transparent;
-  width: 100%;
-  padding: 2%;
-  color: #FFFFFF;
-  font-size: 1.5vw;
-  cursor: pointer;
-  border-radius: 3px;
-}
-
-.form button:hover,
-.form button:active,
-.form button:focus {
-  background: url(../assets/btn.png);
+  border-radius: 1.1vw;
 }
 
 #page > footer {
