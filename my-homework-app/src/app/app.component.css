@@ -7,7 +7,7 @@
   grid-template-rows: 10.5% 3fr 1fr;
   -ms-grid-columns: 1fr 45%;
   grid-template-columns: 1fr 45%;
-  background: url(../assets/pier.jpg) no-repeat #22313f;
+  background: url(../assets/img/pier.jpg) no-repeat #22313f;
   background-size: cover;
   background-attachment: fixed;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -46,13 +46,12 @@
 }
 
 .description {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 2em;
-  font-size: 1.8vw;
   justify-content: center;
-  margin-top: 13%;
+  margin-top: 12%;
   color: #eeeeee;
   text-shadow: 1px 1px 3px #333, -1px -1px 3px #030303, 1px 1px #333, -1px -1px #030303;
   margin-left: 6%;
@@ -61,14 +60,6 @@
 .head {
   font-family: 'Segoe Script', sans-serif;
   font-size: 2.3vw;
-}
-
-.artic {
-  text-align: left;
-  padding: 5%;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #eeeeee;
-  text-shadow: 1px 1px 3px #333;
 }
 
 #page #authorization {
@@ -82,7 +73,7 @@
   background: linear-gradient(to right, #0e2442 0, rgba(44, 49, 65, .9) 100%);
   border-radius: 1.5vw;
   width: 55%;
-  margin: 27% auto 30%;
+  margin: 29% auto 30%;
   padding: 1%;
 }
 
